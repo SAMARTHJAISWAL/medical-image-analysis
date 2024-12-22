@@ -1,0 +1,26 @@
+{
+  "name": "medical-image-analysis",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "konva": "^9.3.0",
+    "naive-ui": "^2.38.0",
+    "dicom-parser": "^1.8.11",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.7.0"
+  }
+}
+
