@@ -6,13 +6,10 @@ export default defineNuxtConfig({
       title: 'Medical Image Analysis'
     }
   },
-  // Add these configurations
+  nitro: {
+    preset: 'netlify',
+  },
   experimental: {
     payloadExtraction: false
-  },
-nitro: {
-    serveStatic: true,
-  },
-  devtools: { enabled: true },
-  compatibilityDate: '2024-12-19'
+  }
 })
